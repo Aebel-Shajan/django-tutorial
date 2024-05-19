@@ -1,4 +1,13 @@
+# Django Tutorial
+Followed tutorial from https://docs.djangoproject.com/en/5.0/intro/tutorial01/.
 
+Lessons learned:
+* Django is used to create static full stack server side website.
+* Django rest framework is used to create apis
+* Django makes use of the model, view, template design pattern.
+* You can use shortcuts from django.shortcuts to cut down on code that gets repeated across multiple projects.
+* You can use generic views to replace writing out views in full by hand.
+* Pycache is not important, you should put it in gitignore
 
 # Setup project
 1. Create virtual environment for project
