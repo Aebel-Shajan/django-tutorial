@@ -31,6 +31,10 @@ pip install -r requirements.txt
 ```
 
 # Making model changes
+0. cd into mysite python project: `cd mysite`
 1. Change your models (in models.py).
-2. Run python manage.py makemigrations to create migrations for those changes
-3. Run python manage.py migrate to apply those changes to the database.
+2. Run `python manage.py makemigrations` to create migrations for those changes
+3. Run `python manage.py migrate` to apply those changes to the database.
+
+# Running server 
+To run the Django server do `python manage.py runserver`
